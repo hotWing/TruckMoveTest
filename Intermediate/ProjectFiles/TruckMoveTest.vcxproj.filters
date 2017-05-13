@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TruckMoveTest.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{52D4B03F-2BD2-4ECC-87B9-42BCDA771147}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TruckMoveTest.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TruckMoveTestEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{62182E24-732C-4BCA-9384-7A3F19807C95}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TruckMoveTest">
+      <UniqueIdentifier>{9E451FDF-27AB-4383-B5BE-A6EE7E0EFC1B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TruckMoveTest\TruckMoveTest.Build.cs">
+      <Filter>Source\TruckMoveTest</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TruckMoveTest\TruckMoveTest.cpp">
+      <Filter>Source\TruckMoveTest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TruckMoveTest\TruckMoveTest.h">
+      <Filter>Source\TruckMoveTest</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TruckMoveTest\TruckMoveTestGameMode.cpp">
+      <Filter>Source\TruckMoveTest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TruckMoveTest\TruckMoveTestGameMode.h">
+      <Filter>Source\TruckMoveTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TruckMoveTest\MyPawn.h">
+      <Filter>Source\TruckMoveTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TruckMoveTest\MyPawn.cpp">
+      <Filter>Source\TruckMoveTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
