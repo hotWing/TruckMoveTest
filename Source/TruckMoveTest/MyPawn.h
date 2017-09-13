@@ -23,5 +23,23 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
-	
+	UFUNCTION(BlueprintCallable, Category=Custom)
+		void setTruck(AActor* t);
+
+	UFUNCTION(BlueprintCallable, Category = Custom)
+		void setWall(AActor* wall);
+
+	UPROPERTY(EditAnyWhere, Category = Custom)
+		TArray<UTexture2D*> textures;
+
+protected:
+
+		AActor* truck;
+		AActor* wall;
+
+private:
+	int texIndex;
+	void NextTex();
+	void PreTex();
+	void setTex(UTexture2D* tex);
 };
